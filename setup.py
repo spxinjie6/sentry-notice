@@ -6,10 +6,10 @@ with open("README.md", "r") as fh:
 
 setup(
     name="sentry-notice",
-    version='1.0.0',
+    version='1.0.1',
     author='spxinjie6',
     author_email='1311855817@qq.com',
-    url='git@github.com:spxinjie6/sentry-notice.git',
+    url='https://github.com/spxinjie6/sentry-notice.git',
     description='sentry 接入dingTalk 告警',
     long_description=long_description,
     long_description_content_type="text/markdown",
@@ -29,7 +29,7 @@ setup(
         ]
     },
     classifiers=[
-        'Programming Language :: Python :: 2.7',
+        'Programming Language :: Python :: 3',
         "License :: OSI Approved :: MIT License",
     ]
 )

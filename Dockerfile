@@ -18,7 +18,7 @@ ENV PYTHONUNBUFFERED=1 PYTHONHASHSEED=random PYTHONDONTWRITEBYTECODE=1
 ENV TZ Asia/Shanghai
 
 # Default port
-# EXPOSE 8080
+EXPOSE 9300
 
 
 # docker build -t celery-worker-ops .
