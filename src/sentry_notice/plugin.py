@@ -9,7 +9,7 @@ from .forms import DingDingOptionsForm
 class DingTalkPlugin(NotificationPlugin):
 
     DING_TALK = "https://oapi.dingtalk.com/robot/send?access_token="
-    VERSION = "1.0.1"
+    VERSION = "1.0.4"
 
     """
     Sentry plugin to send error counts to DingDing.

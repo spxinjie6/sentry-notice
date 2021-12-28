@@ -1,12 +1,12 @@
 # sentry-notice
 sentry 接入dingding 告警
 
-### 安装sentry
-> 下载sentry, 使用docker-compose 安装
-> 注: 每个sentry 版本，都有支持的docker 及 docker-compose 版本
-> pip install sentry 会有依赖不能下载
-> 使用下载的sentry 镜像作为虚拟环境
-> main.py 及 Dockerfile 只是为了查看源码
+> 安装sentry
+* 下载sentry, 使用docker-compose 安装
+* 注: 每个sentry 版本，都有支持的docker 及 docker-compose 版本
+* pip install sentry 会有依赖不能下载
+* 使用下载的sentry 镜像作为虚拟环境
+* main.py 及 Dockerfile 只是为了查看源码
 
 ### 发送告警
 ```
@@ -355,3 +355,6 @@ sentry 接入dingding 告警
 ### event
 #### see: https://github1s.com/getsentry/sentry/blob/HEAD/src/sentry/eventstore/models.py#L118
 #### see: https://github1s.com/getsentry/sentry/blob/HEAD/src/sentry/snuba/events.py
+
+### EM
+* 玩吧 玩在一起

@@ -6,7 +6,7 @@ with open("README.md", "r") as fh:
 
 setup(
     name="sentry-notice",
-    version='1.0.1',
+    version='1.0.4',
     author='spxinjie6',
     author_email='1311855817@qq.com',
     url='https://github.com/spxinjie6/sentry-notice.git',
@@ -20,7 +20,6 @@ setup(
     package_dir={'': 'src'},
     packages=find_packages('src'),
     install_requires=[
-        'sentry>=21.10.0',
         'requests',
     ],
     entry_points={
